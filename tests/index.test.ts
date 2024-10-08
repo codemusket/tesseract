@@ -1,8 +1,8 @@
 // File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
 
-import Petstore from 'tesseract';
-import { APIUserAbortError } from 'tesseract';
-import { Headers } from 'tesseract/core';
+import Petstore from 'avacube';
+import { APIUserAbortError } from 'avacube';
+import { Headers } from 'avacube/core';
 import defaultFetch, { Response, type RequestInit, type RequestInfo } from 'node-fetch';
 
 describe('instantiate client', () => {

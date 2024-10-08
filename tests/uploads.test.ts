@@ -1,6 +1,6 @@
 import fs from 'fs';
-import { toFile, type ResponseLike } from 'tesseract/uploads';
-import { File } from 'tesseract/_shims/index';
+import { toFile, type ResponseLike } from 'avacube/uploads';
+import { File } from 'avacube/_shims/index';
 
 class MyClass {
   name: string = 'foo';

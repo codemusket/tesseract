@@ -4,8 +4,8 @@
 /**
  * Types will get added to this namespace when you import one of the following:
  *
- *   import 'tesseract/shims/node'
- *   import 'tesseract/shims/web'
+ *   import 'avacube/shims/node'
+ *   import 'avacube/shims/web'
  *
  * Importing more than one will cause type and runtime errors.
  */
