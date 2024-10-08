@@ -42,12 +42,12 @@ export let isFsReadStream: Shims['isFsReadStream'] | undefined = undefined;
 export function setShims(shims: Shims, options: { auto: boolean } = { auto: false }) {
   if (auto) {
     throw new Error(
-      `you must \`import 'tesseract/shims/${shims.kind}'\` before importing anything else from tesseract`,
+      `you must \`import 'avacube/shims/${shims.kind}'\` before importing anything else from avacube`,
     );
   }
   if (kind) {
     throw new Error(
-      `can't \`import 'tesseract/shims/${shims.kind}'\` after \`import 'tesseract/shims/${kind}'\``,
+      `can't \`import 'avacube/shims/${shims.kind}'\` after \`import 'avacube/shims/${kind}'\``,
     );
   }
   auto = options.auto;

@@ -1,5 +1,5 @@
-import { createResponseHeaders } from 'tesseract/core';
-import { Headers } from 'tesseract/_shims/index';
+import { createResponseHeaders } from 'avacube/core';
+import { Headers } from 'avacube/_shims/index';
 
 describe('response parsing', () => {
   // TODO: test unicode characters

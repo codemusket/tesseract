@@ -6,9 +6,9 @@
     "rootDir": "./deno",
     "lib": ["es2020", "DOM"],
     "paths": {
-      "tesseract/_shims/auto/*": ["deno/_shims/auto/*-deno"],
-      "tesseract/*": ["deno/*"],
-      "tesseract": ["deno/index.ts"],
+      "avacube/_shims/auto/*": ["deno/_shims/auto/*-deno"],
+      "avacube/*": ["deno/*"],
+      "avacube": ["deno/index.ts"],
     },
     "noEmit": true,
     "declaration": true,
