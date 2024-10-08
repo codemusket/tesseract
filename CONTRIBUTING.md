@@ -55,12 +55,12 @@ $ cd tesseract
 # With yarn
 $ yarn link
 $ cd ../my-package
-$ yarn link tesseract
+$ yarn link avacube
 
 # With pnpm
 $ pnpm link --global
 $ cd ../my-package
-$ pnpm link -—global tesseract
+$ pnpm link -—global avacube
 ```
 
 ## Running tests

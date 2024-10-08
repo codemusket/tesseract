@@ -9,9 +9,9 @@ export function getRuntime({ manuallyImported }: { manuallyImported?: boolean } 
   const recommendation =
     manuallyImported ?
       `You may need to use polyfills`
-    : `Add one of these imports before your first \`import … from 'tesseract'\`:
-- \`import 'tesseract/shims/node'\` (if you're running on Node)
-- \`import 'tesseract/shims/web'\` (otherwise)
+    : `Add one of these imports before your first \`import … from 'avacube'\`:
+- \`import 'avacube/shims/node'\` (if you're running on Node)
+- \`import 'avacube/shims/web'\` (otherwise)
 `;
 
   let _fetch, _Request, _Response, _Headers;

@@ -1,6 +1,6 @@
-import { multipartFormRequestOptions, createForm } from 'tesseract/core';
-import { Blob } from 'tesseract/_shims/index';
-import { toFile } from 'tesseract';
+import { multipartFormRequestOptions, createForm } from 'avacube/core';
+import { Blob } from 'avacube/_shims/index';
+import { toFile } from 'avacube';
 
 describe('form data validation', () => {
   test('valid values do not error', async () => {
