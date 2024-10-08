@@ -1,6 +1,6 @@
 // File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
 
-import { Petstore } from 'tesseract';
+import { Petstore } from 'avacube';
 
 const { stringifyQuery } = Petstore.prototype as any;
 

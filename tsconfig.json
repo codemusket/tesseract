@@ -9,9 +9,9 @@
     "esModuleInterop": true,
     "baseUrl": "./",
     "paths": {
-      "tesseract/_shims/auto/*": ["src/_shims/auto/*-node"],
-      "tesseract/*": ["src/*"],
-      "tesseract": ["src/index.ts"],
+      "avacube/_shims/auto/*": ["src/_shims/auto/*-node"],
+      "avacube/*": ["src/*"],
+      "avacube": ["src/index.ts"],
     },
     "noEmit": true,
 

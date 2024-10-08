@@ -1,7 +1,7 @@
 import iconv from 'iconv-lite';
-import { stringify } from 'tesseract/internal/qs';
-import { encode } from 'tesseract/internal/qs/utils';
-import { StringifyOptions } from 'tesseract/internal/qs/types';
+import { stringify } from 'avacube/internal/qs';
+import { encode } from 'avacube/internal/qs/utils';
+import { StringifyOptions } from 'avacube/internal/qs/types';
 import { empty_test_cases } from './empty-keys-cases';
 import assert from 'assert';
 
